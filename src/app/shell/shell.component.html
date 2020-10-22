@@ -1,0 +1,221 @@
+<!--
+Initial loading:
+
+AppComponent - ngOnInit
+AppComponent - ngAfterContentInit
+AppComponent - ngAfterContentChecked
+AppComponent - ngAfterViewInit
+AppComponent - ngAfterViewChecked
+AppComponent - ngAfterContentChecked
+AppComponent - ngAfterViewChecked
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngOnInit
+    ShellComponent - ngAfterContentInit
+    ShellComponent - ngAfterContentChecked
+        HeaderComponent - ngOnInit
+        SidebarComponent - ngOnInit
+        FooterComponent - ngOnInit
+            ProductComponent - ngOnInit
+            ProductComponent - ngAfterContentInit
+            ProductComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngOnInit
+                    ProductInventoryComponent - ngOnInit
+                    ProductInventoryComponent - ngAfterContentInit
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngOnInit
+                        ProductInventoryGridComponent - ngOnInit
+                        ProductInventoryTopbarComponent - ngAfterContentInit
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentInit
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewInit
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewInit
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewInit
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentInit
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewInit
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewInit
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentInit
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentInit
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentInit
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewInit
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewInit
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewInit
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewInit
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+-->
+<!--
+Click on same route:
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngOnInit
+                    ProductInventoryComponent - ngAfterContentInit
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngOnInit
+                        ProductInventoryGridComponent - ngOnInit
+                        ProductInventoryTopbarComponent - ngAfterContentInit
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentInit
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewInit
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewInit
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewInit
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+-->
+<!--
+Click on setTimeout (without changing a property) to trigger change detection:
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+-->
+<!--
+Click on setTimeout (with changing a property) to trigger change detection:
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+
+AppComponent - ngAfterContentChecked
+    ShellComponent - ngAfterContentChecked
+            ProductComponent - ngAfterContentChecked
+                    ProductInventoryComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterContentChecked
+                        ProductInventoryGridComponent - ngAfterContentChecked
+                        ProductInventoryTopbarComponent - ngAfterViewChecked
+                        ProductInventoryGridComponent - ngAfterViewChecked
+                    ProductInventoryComponent - ngAfterViewChecked
+                ProductTopbarComponent - ngAfterContentChecked
+                ProductTopbarComponent - ngAfterViewChecked
+            ProductComponent - ngAfterViewChecked
+        HeaderComponent - ngAfterContentChecked
+        SidebarComponent - ngAfterContentChecked
+        FooterComponent - ngAfterContentChecked
+        HeaderComponent - ngAfterViewChecked
+        SidebarComponent - ngAfterViewChecked
+        FooterComponent - ngAfterViewChecked
+    ShellComponent - ngAfterViewChecked
+AppComponent - ngAfterViewChecked
+-->
+<!--
+    https://stackoverflow.com/questions/41914954/how-to-force-a-fixed-column-width-with-a-bootstrap-grid-and-keep-the-other-ones
+-->
+<div class="container-fluid">
+    <div class="row">
+        <app-header></app-header>
+    </div>
+    <div class="row">
+        <div class="col sidebar">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div class="col">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+    <div class="row">
+        <app-footer></app-footer>
+    </div>
+</div>
